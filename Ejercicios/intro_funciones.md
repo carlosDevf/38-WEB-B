@@ -11,29 +11,6 @@ Crea un sistema para hacer seguimiento de los libros que has leído.
 - Define una función `agregarLibro(titulo)`, que añada un libro a un array llamado `librosLeidos`.
 - Define una función `mostrarLibrosLeidos()`, que imprima todos los libros que has leído.
 
-#### Ejemplo de implementación:
-
-```javascript
-let librosLeidos = [];
-
-function agregarLibro(titulo) {
-    librosLeidos.push(titulo);
-}
-
-function mostrarLibrosLeidos() {
-    console.log("Libros leídos:");
-    for (let i = 0; i < librosLeidos.length; i++) {
-        console.log(librosLeidos[i]);
-    }
-}
-
-// Llamadas a las funciones
-agregarLibro("Cien años de soledad");
-agregarLibro("1984");
-agregarLibro("El Principito");
-mostrarLibrosLeidos();
-```
-
 ### Entregables
 
 Para este proyecto, debes compartir la URL del archivo en el repositorio creado con la solución del problema descrito. Si tienes alguna duda de este ejercicio, no dudes en consultarla con tu sensei para que quede claro. También puedes solicitar una asesoría.
