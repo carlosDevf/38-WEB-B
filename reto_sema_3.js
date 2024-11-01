@@ -52,18 +52,6 @@ const frutas = [
     }
   }
 
-  // Prueba con ciclo while
-  while (frutas.length > 0){
-    const fruta = frutas.pop()
-    if (fruta === "manzana") {
-        sumaMananza = sumaMananza  +  1 
-    }
-
-    if (fruta === "higo"){
-        sumaHigo = sumaHigo  +  1 
-    }    
-  }
-
   contador.manzana = sumaMananza
   contador.higo = sumaHigo
   console.log(contador)
