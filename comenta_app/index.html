@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Comentarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="comment-container">
+        <form id="comments" class="comment-input-section">
+            <textarea required placeholder="Add comment..."></textarea>
+            <div class="input-toolbar">
+                <button type="button"><strong>B</strong></button>
+                <button type="button"><em>I</em></button>
+                <button type="button"><u>U</u></button>
+                <button type="button">😊</button>
+                <button type="button">📎</button>
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+        <hr>
+        <div class="comments-header">
+            <h2>Comments <span>25</span></h2>
+            <button class="sort-button">Most recent ⌄</button>
+        </div>
+        <div id="container-comments">
+
+        </div>
+        <!-- <div class="comment reply">
+            <div class="comment-info">
+                <img src="./assets/images/perfil.jpg" alt="User Image" class="user-avatar">
+                <div>
+                    <p class="user-name">Skill Sprout <span class="timestamp">8 minutes ago</span></p>
+                    <p class="comment-text">Condensation happens when water vapor cools down and changes back into liquid droplets. It's the step before precipitation.</p>
+                </div>
+            </div>
+            <div class="comment-actions">
+                <button>👍 2</button>
+                <button>👎 0</button>
+                <button>Reply</button>
+            </div>
+        </div> -->
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
